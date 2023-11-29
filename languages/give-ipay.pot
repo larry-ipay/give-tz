@@ -1,0 +1,165 @@
+# Copyright (C) 2018 Give-Ipay
+# This file is distributed under the same license as the Give-Ipay package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Give-Ipay\n"
+"Report-Msgid-Bugs-To: https://github.com/WordImpress/Give-Ipay/issues/new\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Language-Team: WordImpress <info@wordimpress.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/actions.php:80
+msgid "The currency must be set as \"South African Rand (R)\" within Give's <a href=\"%s\">Currency Settings</a> in order to collect donations through the iPay Payment Gateway."
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:80, includes/admin/class-admin-settings.php:201, includes/functions.php:70
+msgid "iPay"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:130
+msgid "Live Merchant ID"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:131
+msgid "Live merchant id parameter provided by iPay"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:137
+msgid "Live Merchant Key"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:138
+msgid "Live secret key parameter provided by iPay"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:144
+msgid "Live Passphrase"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:145
+msgid "Live Passphrase parameter provided by iPay"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:151
+msgid "Sandbox Merchant ID"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:152
+msgid "Sandbox merchant id parameter provided by iPay"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:158
+msgid "Sandbox Merchant Key"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:159
+msgid "Sandbox secret key parameter provided by iPay"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:165
+msgid "Sandbox Passphrase"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:166
+msgid "Sandbox Passphrase parameter provided by iPay"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:171
+msgid "Collect Billing Details"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:175
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:176
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin/class-admin-settings.php:179
+msgid "This option will enable the billing details section for iPay which requires the donor's address to complete the donation. These fields are not required by iPay to process the transaction, but you may have the need to collect the data."
+msgstr ""
+
+#: includes/admin/plugin-activation.php:48
+msgid "iPay Gateway"
+msgstr ""
+
+#: includes/admin/plugin-activation.php:71
+msgid "<strong>Activation Error:</strong> You must have the <a href=\"https://givewp.com/\" target=\"_blank\">Give</a> plugin installed and activated for the iPay add-on to activate."
+msgstr ""
+
+#: includes/admin/plugin-activation.php:80
+msgid "<strong>Activation Error:</strong> You must have <a href=\"%1$s\" target=\"_blank\">Give</a> minimum version %2$s for the iPay add-on to activate."
+msgstr ""
+
+#: includes/admin/plugin-activation.php:98
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/plugin-activation.php:133
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/plugin-activation.php:143
+msgid "Add-ons"
+msgstr ""
+
+#: includes/payment-processing.php:64
+msgid "iPay Response is empty."
+msgstr ""
+
+#: includes/payment-processing.php:77
+msgid "Unable to verify iPay Signature."
+msgstr ""
+
+#: includes/payment-processing.php:89
+msgid "iPay is accessed from invalid IP."
+msgstr ""
+
+#: includes/payment-processing.php:101
+msgid "Invalid Response Data from iPay"
+msgstr ""
+
+#: includes/payment-processing.php:109
+msgid "Actual Donation Amount and iPay Response Amount doesn't match"
+msgstr ""
+
+#: includes/payment-processing.php:115
+msgid "iPay Error"
+msgstr ""
+
+#: includes/payment-processing.php:135
+msgid "Transaction Successful. iPay Transaction ID: %s"
+msgstr ""
+
+#: includes/payment-processing.php:157
+msgid "iPay Error. Transaction Failed for donation %s."
+msgstr ""
+
+#: includes/payment-processing.php:175
+msgid "iPay Error. Transaction Pending for donation %s"
+msgstr ""
+
+#: includes/payment-processing.php:190
+msgid "Donor cancelled the donation %s"
+msgstr ""
+
+#: includes/payment-processing.php:253
+msgid "Payment Error"
+msgstr ""
+
+#: includes/payment-processing.php:255
+msgid "Payment creation failed before process iPay. Payment data: %s"
+msgstr ""
+
+#: includes/payment-processing.php:282
+msgid "This is a donation payment for %s"
+msgstr ""
